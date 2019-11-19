@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "435861560783",
+    "firebase_url": "https://tarjetas-3728c.firebaseio.com",
+    "project_id": "tarjetas-3728c",
+    "storage_bucket": "tarjetas-3728c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435861560783:android:c59170bcfbf0df620f06ba",
+        "android_client_info": {
+          "package_name": "mx.gob.veracruz.tarjetas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435861560783-572o7au68d0ml5b20j6p5qkq1vadinpj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.gob.veracruz.tarjetas",
+            "certificate_hash": "1e92f03e92f00772e8cdec0e3f6f3009fbfde072"
+          }
+        },
+        {
+          "client_id": "435861560783-jfvrock2cki9rvci2sgbsirs3jqg2pl6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl4J9RhJNhOfE2WCHujwv91UeXbgejJ7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435861560783-jfvrock2cki9rvci2sgbsirs3jqg2pl6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
