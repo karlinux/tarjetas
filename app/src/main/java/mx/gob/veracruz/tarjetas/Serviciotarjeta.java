@@ -25,8 +25,10 @@ public class Serviciotarjeta extends Service {
     RequestQueue queue;
     NotificationHandler  notificationHandler;
 
-    private String URL ="http://10.1.40.157:8081/Comparecencia/rest.php";
-    private String chat = "http://10.1.40.157:8081/comparecencia/actu.php";
+    //private String URL ="http://10.1.40.157:8081/Comparecencia/rest.php";
+    private String URL = Constantes.API_RUTA_BASE_URL+ "rest.php";
+    //private String chat = "http://10.1.40.157:8081/comparecencia/actu.php";
+    private String chat = Constantes.API_RUTA_BASE_URL+ "actu.php";
 
     @Override
     public void onCreate() {

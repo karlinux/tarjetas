@@ -168,7 +168,7 @@ public class Dialogochat extends DialogFragment {
 
     public void sendChat( final String id , final String mensaje ){
 
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, "http://10.1.40.157:8081/Comparecencia/sincronizar.php",
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, Constantes.API_RUTA_BASE_URL + "sincronizar.php",
                 new Response.Listener<String>() {
 
                     @Override

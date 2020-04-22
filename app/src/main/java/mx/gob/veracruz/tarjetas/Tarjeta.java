@@ -47,7 +47,7 @@ public class Tarjeta extends AppCompatActivity {
     private NotificationHandler notificationHandler;
     private timer timer;
     private Mensajes mensaje = new Mensajes();
-    private String URL ="http://10.1.40.157:8081/Comparecencia/json.php";
+    private String URL = Constantes.API_RUTA_BASE_URL + "json.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -226,9 +226,9 @@ public class Tarjeta extends AppCompatActivity {
         String chat;
 
         if(id==1){
-            chat = "http://10.1.40.157:8081/Comparecencia/actu.php?id="+idel+"&selec=1";
+            chat = Constantes.API_RUTA_BASE_URL + "actu.php?id="+idel+"&selec=1";
         }else{
-            chat = "http://10.1.40.157:8081/Comparecencia/actuchat.php?id="+idel;
+            chat =  Constantes.API_RUTA_BASE_URL + "actuchat.php?id="+idel;
         }
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, chat,
